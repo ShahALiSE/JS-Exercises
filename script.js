@@ -30,16 +30,17 @@ function addItem(newItem){
        quantity: 1};
     addItem(newItem);
     
-    
-    
+   
     function sortCart(keyName) {
-    cart.sort();
-    console.log(cart);
+    fruits.sort();
+    console.log(fruits);
     }
+    
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
     
     
     //5c
-    function findByNAme(name){
+    function findByName(name){
         
     }
     
